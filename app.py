@@ -8,6 +8,7 @@ from nltk.stem.porter import PorterStemmer
 
 import nltk
 nltk.download('punkt')       # for tokenization
+nltk.download('punkt_tab')
 nltk.download('stopwords')   # for stopword removal
 
 
